@@ -1,0 +1,167 @@
+/* General Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6ff;
+color: #222;
+}
+
+/* Navigation Bar */
+header {
+background-color: #171738;
+padding: 20px 7%;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+color: white;
+font-size: 26px;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+gap: 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 15px;
+}
+
+nav ul li a:hover {
+color: #00d4ff;
+}
+
+/* Home Section */
+.home {
+min-height: 85vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 40px 10%;
+background: linear-gradient(135deg, #171738, #4545a0);
+color: white;
+}
+
+.home h1 {
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+.home p {
+font-size: 18px;
+margin-bottom: 25px;
+}
+
+.btn {
+background-color: #00d4ff;
+color: #171738;
+padding: 12px 25px;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
+}
+
+/* Common Sections */
+.section {
+padding: 70px 10%;
+text-align: center;
+}
+
+.section h2 {
+color: #171738;
+font-size: 32px;
+margin-bottom: 30px;
+}
+
+.section p {
+line-height: 1.8;
+}
+
+/* Cards */
+.card {
+background-color: white;
+padding: 25px;
+margin: 15px auto;
+max-width: 600px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+color: #4545a0;
+margin-bottom: 10px;
+}
+
+/* Skills */
+.skills-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.skills-container span {
+background-color: #171738;
+color: white;
+padding: 15px 25px;
+border-radius: 25px;
+}
+
+/* Contact Button */
+button {
+margin-top: 20px;
+padding: 12px 25px;
+background-color: #4545a0;
+color: white;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #171738;
+}
+
+/* Footer */
+footer {
+background-color: #171738;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+nav {
+    flex-direction: column;
+    gap: 15px;
+}
+
+nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home h1 {
+    font-size: 28px;
+}
+
+}
