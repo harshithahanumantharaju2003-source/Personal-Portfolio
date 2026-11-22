@@ -165,3 +165,29 @@ nav ul {
 }
 
 }
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.dark-mode .card {
+    background-color: #292929;
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #000;
+}
+
+#themeToggle {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
