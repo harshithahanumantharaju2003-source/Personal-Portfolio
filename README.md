@@ -7,6 +7,7 @@ Access Denied
 Project Description
 
 The Personal Portfolio Website is a simple and responsive website developed to showcase personal information, educational qualifications, technical skills, projects and contact details.
+project status : completed
 
 Technologies Used
 
@@ -46,4 +47,5 @@ Team 2 – Access Denied
 
 Conclusion
 
-This project provides a simple platform to present personal and professional information through a website.
+This project provides a simple platform to present personal and professional information through a website. 
+# Personal-Portofolio
